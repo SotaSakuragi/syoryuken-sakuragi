@@ -37,6 +37,7 @@ class ViewController: UIViewController {
         anime.image = UIImage(named: "attack19")
         anime.image = UIImage(named: "attack20")
         anime.image = UIImage(named: "attack1")
+//        一個のときは動いたのみ増やしたら動かない
     }
     
 }
