@@ -18,9 +18,14 @@ class ViewController: UIViewController {
     @IBAction func button(_ sender: Any) {
         
         let imageNames = ["attack1","attack2"]
-//        配列にしてみる
-        anime.image = imageNames
-//        UIImage型に直したい
+        var imags: [UIView] = []
+        for name in imageNames {
+            if let imag = UIView(named: name) {
+                imags.append(imag)
+//                うまくいかなかった
+            }
+        }
+        
     }
     
 }
