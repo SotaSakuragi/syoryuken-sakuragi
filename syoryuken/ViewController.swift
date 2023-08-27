@@ -18,26 +18,28 @@ class ViewController: UIViewController {
     @IBAction func button(_ sender: Any) {
         
         anime.image = UIImage(named: "attack2")
+        
         anime.image = UIImage(named: "attack3")
+        
         anime.image = UIImage(named: "attack4")
         anime.image = UIImage(named: "attack5")
-        anime.image = UIImage(named: "attack6")
-        anime.image = UIImage(named: "attack7")
-        anime.image = UIImage(named: "attack8")
-        anime.image = UIImage(named: "attack9")
-        anime.image = UIImage(named: "attack10")
-        anime.image = UIImage(named: "attack11")
-        anime.image = UIImage(named: "attack12")
-        anime.image = UIImage(named: "attack13")
-        anime.image = UIImage(named: "attack14")
-        anime.image = UIImage(named: "attack15")
-        anime.image = UIImage(named: "attack16")
-        anime.image = UIImage(named: "attack17")
-        anime.image = UIImage(named: "attack18")
-        anime.image = UIImage(named: "attack19")
-        anime.image = UIImage(named: "attack20")
-        anime.image = UIImage(named: "attack1")
-//        一個のときは動いたのみ増やしたら動かない
+//        いきなり5が表示される
+//        anime.image = UIImage(named: "attack6")
+//        anime.image = UIImage(named: "attack7")
+//        anime.image = UIImage(named: "attack8")
+//        anime.image = UIImage(named: "attack9")
+//        anime.image = UIImage(named: "attack10")
+//        anime.image = UIImage(named: "attack11")
+//        anime.image = UIImage(named: "attack12")
+//        anime.image = UIImage(named: "attack13")
+//        anime.image = UIImage(named: "attack14")
+//        anime.image = UIImage(named: "attack15")
+//        anime.image = UIImage(named: "attack16")
+//        anime.image = UIImage(named: "attack17")
+//        anime.image = UIImage(named: "attack18")
+//        anime.image = UIImage(named: "attack19")
+//        anime.image = UIImage(named: "attack20")
+//        anime.image = UIImage(named: "attack1")
     }
     
 }
