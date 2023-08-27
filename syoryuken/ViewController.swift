@@ -17,15 +17,10 @@ class ViewController: UIViewController {
 
     @IBAction func button(_ sender: Any) {
         
-        let imageNames = ["attack1","attack2"]
-        var imags: [UIView] = []
-        for name in imageNames {
-            if let imag = UIView(named: name) {
-                imags.append(imag)
-//                うまくいかなかった
-            }
+        for number in 1...20 {
+            anime.image = UIImage(named: "attack\(number)")
         }
-        
+
     }
     
 }
