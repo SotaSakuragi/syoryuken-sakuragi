@@ -16,15 +16,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func button(_ sender: Any) {
-        let images: [UIImage] = [
-            UIImage(named: "attack1")!,
-            UIImage(named: "attack2")!,
-            UIImage(named: "attack3")!,
-            // 省略...
-            UIImage(named: "attack20")!
-        ]
-
-        anime.image = images
+        anime.image = UIImage(named: attack20)
     }
     
 }
